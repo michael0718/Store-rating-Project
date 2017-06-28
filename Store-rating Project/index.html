@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <title>Rate the Store</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</head>
+
+<body>
+
+  <h1 id="header">Rate the Store</h1>
+  <ul id="orders"></ul>
+    <button id="allusers">Get All Users</button>
+
+    <form>
+        <p>username: <input type="text" id="newusername" placeholder="Username required">
+        <p>firstname: <input type="text" id="newfirstname" placeholder="First name required">
+        <p>lastname: <input type="text" id="newlastname" placeholder="Last name required">
+        <p>sex: <input type="text" id="newsex" placeholder="Sex required">
+        <p>age: <input type="text" id="newage" placeholder="Age required">
+        <button id='adduser'>Add New User</button>
+    </form>
+
+
+    <form>
+        <input type="text" id="newinput">
+        <button id="searchusers">Search Users</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Get User by ID</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Get User by Username</button>
+    </form>
+
+    <form>
+        <p>firstname: <input type="text" id="ufirstname" placeholder="edit first name(optional)">
+        <p>lastname: <input type="text" id="ulastname" placeholder="edit last name(optional)">
+        <p>sex: <input type="text" id="usex" placeholder="edit sex(optional)">
+        <p>age: <input type="text" id="uage" placeholder="edit age(optional)">
+        <button id='adduser'>Update User by ID</button>
+    </form>
+
+
+    <hr>
+
+    <ul id="allstores"></ul>
+    <button id="getstores">Get All Stores</button>
+
+    <form>
+        <p>storename: <input type="text" id="newstorename" placeholder="storename required">
+        <p>category: <input type="text" id="newcategory" placeholder="category required">
+        <p>address: <input type="text" id="newaddress" placeholder="address required">
+        <button id='addstore'>Add New Store</button>
+    </form>
+
+    <form>
+        <input type="text">
+        <button>Search Stores</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Get Store by ID</button>
+    </form>
+
+    <hr>
+
+
+    <ul id="allreviews"></ul>
+    <form>
+        <p>userID: <input type="text" id="newuserID" placeholder="Username required">
+        <p>storeID: <input type="text" id="newstoreID" placeholder="First name required">
+        <p>rating: <input type="text" id="newrating" placeholder="Last name required">
+        <p>comment: <input type="text" id="newcomment" placeholder="Sex required">
+        <button id='addreview'>Add New Review</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Get Review by ID</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Get Review by User ID</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Get Review by Store ID</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Delete Review by ID</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Delete Review by User ID</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Delete Review by Store ID</button>
+    </form>
+    <form>
+        <input type="text">
+        <button>Update Review by ID</button>
+    </form>
+</body>
+</html>
